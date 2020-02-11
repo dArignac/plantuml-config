@@ -1,0 +1,70 @@
+@startuml config-general
+skinparam BackgroundColor FFFFFE
+
+skinparam arrow {
+  Color Black
+  FontColor Black
+}
+
+skinparam package {
+  BackgroundColor #E0E0E0
+  BorderColor #E0E0E0
+  FontStyle italic bold
+  Shadowing false
+
+  BackgroundColor<<Green>> MediumSeaGreen
+  BorderColor<<Green>> MediumSeaGreen
+
+  BackgroundColor<<DarkSalmon>> DarkSalmon
+  BorderColor<<DarkSalmon>> DarkSalmon
+
+  BackgroundColor<<CadetBlue>> CadetBlue
+  BorderColor<<CadetBlue>> CadetBlue
+
+  BackgroundColor<<Gold>> Gold
+  BorderColor<<Gold>> Gold
+
+  BackgroundColor<<LimeGreen>> LimeGreen
+  BorderColor<<LimeGreen>> LimeGreen
+}
+
+skinparam component {
+  ' function specific styling
+  BackgroundColor<<Exchange>> DeepSkyBlue
+  BorderColor<<Exchange>> DeepSkyBlue
+  BackgroundColor<<Service>> TECHNOLOGY
+  BorderColor<<Service>> TECHNOLOGY
+  BackgroundColor<<Queue>> Gold
+  BorderColor<<Queue>> Gold
+
+  ' DeepSkyBlue
+  BackgroundColor<<DeepSkyBlue>> DeepSkyBlue
+  BorderColor<<DeepSkyBlue>> DeepSkyBlue
+  FontColor<<Green>> Black
+
+  ' Green
+  BackgroundColor<<Green>> Green
+  BorderColor<<Green>> Green
+  FontColor<<Green>> Black
+
+  BackgroundColor<<Gold>> Gold
+  BorderColor<<Gold>> Gold
+  FontColor<<Gold>> Black
+
+  BackgroundColor<<DimGrey>> DimGrey
+  BorderColor<<DimGrey>> DimGrey
+  FontColor<<DimGrey>> GhostWhite
+
+  BackgroundColor<<PaleVioletRed>> PaleVioletRed
+  BorderColor<<PaleVioletRed>> PaleVioletRed
+  FontColor<<PaleVioletRed>> Black
+
+  BackgroundColor<<DarkRed>> DarkRed
+  BorderColor<<DarkRed>> DarkRed
+  FontColor<<DarkRed>> FloralWhite
+
+  BackgroundColor<<SlateBlue>> SlateBlue
+  BorderColor<<SlateBlue>> SlateBlue
+  FontColor<<SlateBlue>> FloralWhite
+}
+@enduml
