@@ -28,6 +28,7 @@ skinparam package {
   BorderColor<<LimeGreen>> LimeGreen
 }
 
+' presets for components
 skinparam component {
   ' function specific styling
   BackgroundColor<<Exchange>> DeepSkyBlue
@@ -47,22 +48,27 @@ skinparam component {
   BorderColor<<Green>> Green
   FontColor<<Green>> Black
 
+  ' Gold
   BackgroundColor<<Gold>> Gold
   BorderColor<<Gold>> Gold
   FontColor<<Gold>> Black
 
+  ' DimGrey
   BackgroundColor<<DimGrey>> DimGrey
   BorderColor<<DimGrey>> DimGrey
   FontColor<<DimGrey>> GhostWhite
 
+  ' PaleVioletRed
   BackgroundColor<<PaleVioletRed>> PaleVioletRed
   BorderColor<<PaleVioletRed>> PaleVioletRed
   FontColor<<PaleVioletRed>> Black
 
+  ' DarkRed
   BackgroundColor<<DarkRed>> DarkRed
   BorderColor<<DarkRed>> DarkRed
   FontColor<<DarkRed>> FloralWhite
 
+  ' SlateBlue
   BackgroundColor<<SlateBlue>> SlateBlue
   BorderColor<<SlateBlue>> SlateBlue
   FontColor<<SlateBlue>> FloralWhite
