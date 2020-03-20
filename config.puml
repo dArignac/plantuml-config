@@ -1,11 +1,20 @@
 @startuml config-general
 skinparam BackgroundColor FFFFFE
 
+' default arrow style
 skinparam arrow {
   Color Black
   FontColor Black
 }
 
+' default note style
+skinparam note {
+    BackgroundColor Khaki
+    BorderColor Khaki
+    FontColor Black
+}
+
+' presets for packages
 skinparam package {
   BackgroundColor #E0E0E0
   BorderColor #E0E0E0
