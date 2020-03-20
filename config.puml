@@ -82,4 +82,25 @@ skinparam component {
   BorderColor<<SlateBlue>> SlateBlue
   FontColor<<SlateBlue>> FloralWhite
 }
+
+skinparam participant {
+    ' setting FontColor here has not effect
+    ' must set to participant directly: participant "<color:XXX>Name"
+    
+    ' DimGrey, FontColor: GhostWhite
+    BackgroundColor<<DimGrey>> DimGrey
+    BorderColor<<DimGrey>> DimGrey
+    
+    ' Gold, FontColor: Black
+    BackgroundColor<<Gold>> Gold
+    BorderColor<<Gold>> Gold
+    
+    ' DeepSkyBlue, FontColor: Black
+    BackgroundColor<<DeepSkyBlue>> DeepSkyBlue
+    BorderColor<<DeepSkyBlue>> DeepSkyBlue
+    
+    ' Green, FontColor: GhostWhite
+    BackgroundColor<<Green>> Green
+    BorderColor<<Green>> Green
+}
 @enduml
