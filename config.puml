@@ -81,10 +81,6 @@ skinparam component {
   BackgroundColor<<SlateBlue>> SlateBlue
   BorderColor<<SlateBlue>> SlateBlue
   FontColor<<SlateBlue>> FloralWhite
-  
-  ' Salmon
-  BackgroundColor<<Salmon>> Salmon
-  BorderColor<<Salmon>> Salmon
 }
 
 skinparam participant {
@@ -106,5 +102,9 @@ skinparam participant {
     ' Green, FontColor: GhostWhite
     BackgroundColor<<Green>> Green
     BorderColor<<Green>> Green
+    
+    ' Salmon, FontColor: Black
+    BackgroundColor<<Salmon>> Salmon
+    BorderColor<<Salmon>> Salmon
 }
 @enduml
