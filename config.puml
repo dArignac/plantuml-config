@@ -81,6 +81,10 @@ skinparam component {
   BackgroundColor<<SlateBlue>> SlateBlue
   BorderColor<<SlateBlue>> SlateBlue
   FontColor<<SlateBlue>> FloralWhite
+  
+  ' Salmon
+  BackgroundColor<<Salmon>> Salmon
+  BorderColor<<Salmon>> Salmon
 }
 
 skinparam participant {
