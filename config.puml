@@ -86,6 +86,7 @@ skinparam component {
 skinparam participant {
     ' setting FontColor here has not effect
     ' must set to participant directly: participant "<color:XXX>Name"
+    ' prefer using "hide stereotype" to, well, hide the stereotypes ;-)
     
     ' DimGrey, FontColor: GhostWhite
     BackgroundColor<<DimGrey>> DimGrey
